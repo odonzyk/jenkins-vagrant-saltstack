@@ -1,8 +1,25 @@
 # Jenkins Vagrant Saltstack
 
-Features
+## Config ##
+Command "vagrant up"
+- creates a new virtualbox with masterless salstack  
+- install Jenkins with Plugins and job as example
 
+In the VirtualBox, you can find important folders mounted from the host:
+* /etc/salt
+* /srv/salt/
+* /var/www/
+* /var/www/jenkins/jobs
+
+Jenkins WebGui is forwared to the host!
+* config.vm.network :forwarded_port, guest: 80, host: 8080
+* config.vm.network :forwarded_port, guest: 8080, host: 8081
+
+## Features ##
+
+* Java 8
 * Jenkins
+* Salstack SLS automatic usage of pre-created admin:password from file /var/lib/jenkins/secrets/initialAdminPassword
 * plugins
   * Github Plugin
   * Green Balls
