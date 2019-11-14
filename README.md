@@ -5,6 +5,7 @@ Command "vagrant up"
 - install Jenkins with Plugins and job as example
 
 In the VirtualBox you can find important folders like:
+
 /etc/salt
 /srv/
 
