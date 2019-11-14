@@ -1,8 +1,14 @@
 # Jenkins Vagrant Saltstack
 
+Command "vagrant up"
+- creates a new virtualbox with masterless salstack  
+- install Jenkins with Plugins and job as example
+
 Features
 
+* Java 8
 * Jenkins
+* Salstack SLS automatic usage of pre-created admin:password from file /var/lib/jenkins/secrets/initialAdminPassword
 * plugins
   * Github Plugin
   * Green Balls
