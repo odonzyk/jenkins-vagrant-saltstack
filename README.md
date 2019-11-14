@@ -5,14 +5,12 @@ Command "vagrant up"
 - install Jenkins with Plugins and job as example
 
 In the VirtualBox you can find important folders like:
-
-/etc/salt
-
-/srv/
+* /etc/salt
+* /srv/
 
 Jenkins WebGui is forwared to the host!
-config.vm.network :forwarded_port, guest: 80, host: 8080
-config.vm.network :forwarded_port, guest: 8080, host: 8081
+* config.vm.network :forwarded_port, guest: 80, host: 8080
+* config.vm.network :forwarded_port, guest: 8080, host: 8081
 
 
 Features
