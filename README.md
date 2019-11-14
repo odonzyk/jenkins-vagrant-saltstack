@@ -7,6 +7,7 @@ Command "vagrant up"
 In the VirtualBox you can find important folders like:
 
 /etc/salt
+
 /srv/
 
 Jenkins WebGui is forwared to the host!
