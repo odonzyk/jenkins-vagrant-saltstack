@@ -10,7 +10,7 @@ update.jenkins.update.centre:
     - require:
       - pkg: curl
       
-{% for pluginName in ['git', 'postbuild-task', 'greenballs'] %}
+{% for pluginName in ['git', 'postbuild-task', 'greenballs', 'xunit'] %}
 
 jenkins.plugin.{{ pluginName }}:
   cmd.run:
