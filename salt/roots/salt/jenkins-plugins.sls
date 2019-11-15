@@ -9,9 +9,8 @@ update.jenkins.update.centre:
     - name: "curl -L http://updates.jenkins-ci.org/update-center.json | sed '1d;$d' | curl -X POST -H 'Accept: application/json' -d @- http://localhost:8080/updateCenter/byId/default/postBack"
     - require:
       - pkg: curl
-      
-{% for pluginName in ['git', 'postbuild-task', 'greenballs', 'xunit'] %}
 
+{% for pluginName in ['git', 'postbuild-task', 'greenballs', 'xunit'] %}
 jenkins.plugin.{{ pluginName }}:
   cmd.run:
     - name: java -jar /var/cache/jenkins/war/WEB-INF/jenkins-cli.jar -s http://localhost:8080 -auth admin:{{ jenkins_pwd }} install-plugin {{ pluginName }}

@@ -5,3 +5,4 @@ base:
     - java
     - jenkins
 #    - jenkins-plugins
+#    - jenkins-jobs
