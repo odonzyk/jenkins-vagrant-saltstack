@@ -1,9 +1,16 @@
 # Jenkins Vagrant Saltstack
 
-## Config ##
-Command "vagrant up"
 - creates a new virtualbox with masterless saltstack  
 - install Jenkins with Plugins and job as example
+
+## First install of the VirtualBox with Vagrat ##
+```
+vagrant up
+```
+
+1 After installation call "localhost:8081" from your host browser.
+2 You need to answer the few question from the installation wizzard.
+3 done and ready for work
 
 In the VirtualBox, you can find important folders mounted from the host:
 * /etc/salt
