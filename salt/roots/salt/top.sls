@@ -4,4 +4,4 @@ base:
     - git
     - java
     - jenkins
-    - jenkins-plugins
+#    - jenkins-plugins
