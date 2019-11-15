@@ -8,7 +8,7 @@
 vagrant up
 ```
 
-After installation call "localhost:8081" from your host browser.
+## After installation call "localhost:8081" from your host browser.
 * You need to answer the few question from the installation wizzard.
 * done and ready for work
 
