@@ -58,3 +58,9 @@ Or use flag below when running vagrant command
 --debug
 ```
 
+## Using Salt from the Box 
+* vagrant ssh
+* Box update and pre-configure with "salt-call state.highstate"
+* install plugins -> "salt-call state.sls jenkins-plugins"
+* install jobs -> "salt-call state.sls jenkins-jobs"
+
