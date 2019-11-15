@@ -8,9 +8,9 @@
 vagrant up
 ```
 
-# After installation call "localhost:8081" from your host browser.
-# You need to answer the few question from the installation wizzard.
-# done and ready for work
+After installation call "localhost:8081" from your host browser.
+* You need to answer the few question from the installation wizzard.
+* done and ready for work
 
 In the VirtualBox, you can find important folders mounted from the host:
 * /etc/salt
