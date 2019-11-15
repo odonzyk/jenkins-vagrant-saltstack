@@ -2,7 +2,7 @@
 
 ## Config ##
 Command "vagrant up"
-- creates a new virtualbox with masterless salstack  
+- creates a new virtualbox with masterless saltstack  
 - install Jenkins with Plugins and job as example
 
 In the VirtualBox, you can find important folders mounted from the host:
